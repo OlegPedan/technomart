@@ -1,0 +1,357 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote,
+a, font, img, q, ol, ul, li, form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #bebebe;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #bebebe;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #fcdb04;
+}
+
+.headertop {
+  min-height: 42px;
+  background-color: #293449;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.headertop p {
+  float: left;
+  color: #ffffff;
+}
+
+.logo {
+  margin-right: 17px;
+  padding-top: 13px;
+  height: 29px;
+  width: 220px;
+  background-color: #ee3643;
+  border-bottom: 5px solid #b52933;
+  position: absolute;
+
+}
+
+.logo h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.search {
+  margin-right: 197px;
+}
+
+.bookmarks {
+  margin-right: 44px;
+}
+.basket{
+  margin-right: 30px;
+}
+.order {
+  float: left;
+}
+
+.headerbottom {
+  min-height: 278px;
+  background-color: #f1f5f7;
+}
+
+.description {
+  float: left;
+  margin-left: 52px;
+}
+
+.contacts_header {
+ float: left;
+ margin-left: 71px;
+}
+
+.login {
+  float: left;
+  margin-left: 70px;
+}
+
+.login p {
+  float: left;
+}
+
+.headerbottom_main{
+  min-height: 158px;
+}
+
+.menu_header {
+  min-height: 60px;
+  background-color: #32425c;
+}
+
+.menu_header li {
+  float: left;
+  margin: 0 calc(100% / 30);
+  color: #ffffff;
+  text-align: center;
+  margin-top: 22px;
+}
+/*
+.menu_header a {
+  text-align: center;
+  padding-top: 22px;
+}*/
+
+.index{
+  margin-top: 60px;
+}
+
+.index div {
+  width: 300px;
+  height: 123px;
+  float: left;
+  margin: 0 0 20px 20px;
+  background-color: #f6b22d;
+
+}
+
+.index .materials {
+  margin-left: 0;
+}
+
+.index .slider {
+  margin: 0;
+  width: 620px;
+  height: 266px;
+}
+
+.index::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.topheader {
+  min-height: 89px;
+  margin-top: 33px;
+  background-color: #f7f3ec;
+}
+
+.topheader h2 {
+  float: left;
+  margin: 33px 0 0 30px;
+}
+
+.topheader p {
+  float: left;
+  margin: 33px 0 0 373px;
+}
+
+.topheader::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.goods {
+  width: 218px;
+  height: 316px;
+  float: left;
+  margin: 20px 20px -13px 0;
+  background-color:  #f6b22d;
+  border: 1px solid #f7f3ec ;
+}
+
+.topgoods::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.end {
+  margin-right: 0;
+}
+
+.logobrands {
+  width: 218px;
+  height: 143px;
+  float: left;
+  margin: 20px 20px 0 0;
+  background-color:  #f6b22d;
+  border: 1px solid #f7f3ec ;
+}
+
+.topbrands::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.end {
+  margin-right: 0;
+}
+
+.services {
+  margin-top: 85px;
+  padding-top: 68px;
+  min-height: 454px;
+  background-color: #f1f5f7;
+}
+
+.services h2 {
+}
+
+.services p {
+  margin-top: 41px
+}
+
+.servises_main {
+  margin-top: 30px;
+}
+
+.services_menu {
+  float: left;
+  margin-right: 80px;
+}
+
+.services_delivery {
+  max-width: 275px;
+  float: left;
+}
+
+.services_delivery h2 {
+  max-width: inherit;
+}
+.services_delivery p {
+  max-width: inherit;
+}
+
+.servises_main img {
+}
+
+.servises_main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.details {
+  margin-top: 82px;
+  min-height: 536px;
+}
+
+.about_us {
+  max-width: 640px;
+  float: left;
+}
+
+.contacts {
+  max-width: 300px;
+  float: left;
+}
+
+.details::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footertop {
+  background-color: #32425c;
+  min-height: 193px;
+}
+
+.logo_footer {
+  float: left;
+  max-width: 325px;
+  min-height: 193px;
+}
+
+.logo_footer h1 {
+  width: 68px;
+}
+
+.logo_footer p {
+  margin-top: 30px;
+}
+
+.footertop ul{
+  float: left;
+  max-width: 615px;
+}
+
+.menu li {
+  margin: 0 calc(100% / 14);
+  color: #ffffff;
+  text-align: center;
+}
+
+.menu::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu_index li {
+  margin: 0 calc(100% / 9);
+  color: #ffffff;
+  text-align: center;
+}
+.menu_index::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footerbottom {
+  background-color: #293449;
+  min-height: 107px;
+}
+
+.footerbottom p {
+  float: left;
+}
+
+.social {
+  float: left;
+}
+
+.creators {
+  float: left;
+}
